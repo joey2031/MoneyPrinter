@@ -18,7 +18,9 @@ from termcolor import colored
 from youtube import upload_video
 from apiclient.errors import HttpError
 from flask import Flask, request, jsonify
+
 from moviepy.config import change_settings
+from moviepy.editor import AudioFileClip, concatenate_audioclips, VideoFileClip, CompositeAudioClip
 
 
 

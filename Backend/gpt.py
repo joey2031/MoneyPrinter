@@ -56,10 +56,9 @@ def generate_response(prompt: str, ai_model: str) -> str:
 
         ).choices[0].message.content
     elif ai_model == 'gemmini':
-        model = genai.GenerativeModel('gemini-pro')
-        response_model = model.generate_content(prompt)
-        response = response_model.text
-
+            model = genai.GenerativeModel('gemini-2.5-flash')
+            response_model = model.generate_content(prompt)
+            response = response_model.text
     else:
 
         raise ValueError("Invalid AI model selected.")

@@ -2,18 +2,8 @@
 
 ## Required
 
-- TIKTOK_SESSION_ID: Your TikTok session ID is required. Obtain it by logging into TikTok in your browser and copying the value of the `sessionid` cookie.
-
-- IMAGEMAGICK_BINARY: The filepath to the ImageMagick binary (.exe file) is needed. Obtain it [here](https://imagemagick.org/script/download.php).
-
-- PEXELS_API_KEY: Your unique Pexels API key is required. Obtain yours [here](https://www.pexels.com/api/).
-
-## Optional
-
-- OPENAI_API_KEY: Your unique OpenAI API key is required. Obtain yours [here](https://platform.openai.com/api-keys), only nessecary if you want to use the OpenAI models.
-
-- GOOGLE_API_KEY: Your Gemini API key is essential for Gemini Pro Model. Generate one securely at [Get API key | Google AI Studio](https://makersuite.google.com/app/apikey)
-
-* ASSEMBLY_AI_API_KEY: Your unique AssemblyAI API key is required. You can obtain one [here](https://www.assemblyai.com/app/). This field is optional; if left empty, the subtitle will be created based on the generated script. Subtitles can also be created locally.
-
-Join the [Discord](https://dsc.gg/fuji-community) for support and updates.
+TIKTOK_SESSION_ID = `b6c83b1ade82d2938dad9c079f5fa13d`
+IMAGEMAGICK_BINARY = `C:\\Program Files\\ImageMagick-7.1.2-Q16-HDRI\\magick.exe`
+PEXELS_API_KEY = `HFPm1odMS8f54cVVfwRxITkhLfqaBxOC7shdrkc0K8okShohWrTsPp1i`
+GOOGLE_API_KEY= `AIzaSyB63BpXWNbIGrvx1qKz1gGo-jbwxk31G9M`
+ASSEMBLY_AI_API_KEY= `fd5d327159f84f2cb00f2faa11d375a9`
