@@ -3,6 +3,7 @@ setuptools
 wheel
 requests
 moviepy===1.0.3
+opencv-python
 termcolor
 flask
 curl_cffi
